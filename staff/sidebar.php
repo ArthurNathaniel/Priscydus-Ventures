@@ -3,13 +3,16 @@
 
     </div>
     <div class="links">
-        <h4>VAT INVOICE</h4>
+        <h4>INVOICE</h4>
         <a href="create_invoice.php">Create Invoice </a>
        <div class="dasheds"></div>
        <a href="invoice_history.php">Invoice History (VAT)</a>
        <div class="dasheds"></div>
    <a href="invoice_history_novat.php">Invoice History (NO VAT)</a>
+<h4>RECEIPT</h4>
+   <a href="generate_receipt.php">Generate  Receipt</a>
    <div class="dasheds"></div>
+   <a href="receipts_history.php">Receipt History</a>
     </div>
 
     <a href="logout.php">
