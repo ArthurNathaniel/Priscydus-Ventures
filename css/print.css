@@ -1,0 +1,49 @@
+.invoice_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.invoice_header_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.payment_details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.buttons button {
+  padding: 15px 45px;
+  background-color: #ed4b00;
+  border: none;
+  color: #fff;
+}
+  .all {
+    background-image: url("../images/bg_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+@media print {
+  .all {
+    background-image: url("../images/bg_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  button {
+    display: none;
+  }
+  .toggle_btn {
+    display: none;
+  }
+}
